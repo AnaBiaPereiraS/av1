@@ -1,0 +1,104 @@
+/* Estilo do corpo */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #a7f0bf;
+}
+
+/* Estilo da logo */
+.navbar-brand-logo {
+  font-size: 45px; color: rgb(244, 255, 247);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content:end;
+
+}
+
+.navbar-brand-logo img {
+  margin-right: 20px;
+}
+
+
+/* Estilo do navbar */
+.navbar {
+  background-color:rgb(55, 202, 75);
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  left: 50%;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn-btn-outline-success{
+color: #106610;
+background: #106610;
+
+}
+
+.form-control-search {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+/* Estilo do formulário (informaçoes do cliente) */
+/* banner a esquerda */
+.img-banner {
+background:  #a7f0bf;
+text-align:center;
+height: 100%;
+width: 100%;
+}
+
+.container-form{
+  background-color:#a7f0bf;
+  width: 50%;
+  display:flex;
+  text-align:center;
+  justify-content:center;
+  flex-direction: column;
+}
+
+section{
+  text-align:-webkit-center;
+  background-color:  #a7f0bf
+}
+
+.btn-btn-primary {
+  background-color: #106610;
+  color: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  justify-content: center;
+
+}
+
+
+
+/* Estilo do rodapé */
+footer {
+  background-color:rgb(55, 202, 75);
+  color: #0a0a0a;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.social-media a {
+  color: #0a0a0a;
+  text-decoration: none;
+  margin-right: 10px;
+}
